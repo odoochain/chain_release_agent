@@ -30,6 +30,7 @@ class ReleaseAgent(http.Controller):
                 lambda m: {
                     "name": m.name,
                     "author": m.author,
+                    "latest_version": m.latest_version,
                     "author_type": self.get_author_type(m),
                 }
             )
