@@ -11,7 +11,7 @@
     "depends": [
         "base",
     ],
-    "data": [],
+    "data": ["views/base_config_view.xml"],
     "qweb": [],
     "installable": True,
     "auto_install": False,
