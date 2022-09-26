@@ -39,7 +39,7 @@ class IrModule(models.Model):
         try:
             requests.post(
                 url="https://monfil.le-filament.com/post-modules",
-                json=self._get_modules(),
+                json={"modules": self._get_modules()},
                 verify=True,
                 timeout=10,
             )
