@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!-- Copyright 2015 Antiun Ingenieria S.L. - Antonio Espinosa
-     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html). -->
+<!-- Copyright 2022 Le Filament (<https://le-filament.com>)
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
 <odoo>
     <record id="res_config_lefilament_agent_view_form" model="ir.ui.view">
         <field name="name">Add module synchro config parameter</field>

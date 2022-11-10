@@ -1,4 +1,4 @@
-# © 2022 Le Filament (<http://www.le-filament.com>)
+# Copyright 2022 Le Filament (<https://le-filament.com>)
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
 import requests
@@ -44,4 +44,4 @@ class IrModule(models.Model):
                 timeout=10,
             )
         except Exception as e:
-            raise exceptions.UserError(e.__str__())
+            raise exceptions.UserError(e.__str__()) from e
